@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\danie\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\danie\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\danie\Desktop\Desafio" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Desafio.csproj" t="IncludeRecursive" />
+      <e p="Entities" t="Include">
+        <e p="Client.cs" t="Include" />
+        <e p="Photocopy.cs" t="Include" />
+        <e p="Print.cs" t="Include" />
+      </e>
+      <e p="Enums" t="Include">
+        <e p="ColorEnum.cs" t="Include" />
+      </e>
+      <e p="Interfaces" t="Include">
+        <e p="IClientView.cs" t="Include" />
+        <e p="IOrderView.cs" t="Include" />
+        <e p="IPhotocopyView.cs" t="Include" />
+        <e p="IPrintView.cs" t="Include" />
+        <e p="IViewBase.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="Desafio.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Views" t="Include">
+        <e p="ClientView.cs" t="Include" />
+        <e p="OrderView.cs" t="Include" />
+        <e p="PhotocopyView.cs" t="Include" />
+        <e p="PrintView.cs" t="Include" />
+        <e p="ViewBase.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
