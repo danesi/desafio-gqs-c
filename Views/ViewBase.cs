@@ -2,7 +2,7 @@
 using System.Linq;
 using Desafio.Interfaces;
 
-namespace Desafio.View
+namespace Desafio.Views
 {
     public class ViewBase : IViewBase
     {
@@ -38,7 +38,14 @@ namespace Desafio.View
         /// <returns>retorna a string que o usuário digitou</returns>
         public string ReadString()
         {
-            return Console.ReadLine();
+            string word = Console.ReadLine();
+            if (word.Equals(""))
+            {
+                Write("Valor inválido, tente novamente:");
+                return ReadString();
+            }
+            else
+                return word;
         }
         
         /// <summary>
@@ -48,13 +55,14 @@ namespace Desafio.View
         public string ReadCpf()
         {
             string cpf = Console.ReadLine();
-            if (cpf.Length != 11 || !cpf.All(char.IsDigit))
+            if (cpf != null && (cpf.Length != 11 || !cpf.All(char.IsDigit)))
             {
-                Write("Valor invalido, tente novamente:");
-                ReadCpf();
+                Write("Valor inválido, tente novamente:");
+                return ReadCpf();
             }
-            
-            return cpf;
+            else
+                return cpf;
+
         }
         
         /// <summary>
@@ -75,7 +83,7 @@ namespace Desafio.View
             }
             catch (Exception e)
             {
-                Write("Valor invalido, tente novamente:");
+                Write("Valor inválido, tente novamente:");
                 return ReadInt();
             }
         }
@@ -91,7 +99,7 @@ namespace Desafio.View
                 return value;
             else
             {
-                Write("Valor invalido, tente novamente:");
+                Write("Valor inválido, tente novamente:");
                 return Read1Or2();
             }
         }

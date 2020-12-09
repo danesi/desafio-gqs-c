@@ -1,6 +1,5 @@
 ﻿using Desafio.Entities;
 using Desafio.Interfaces;
-using Desafio.View;
 
 namespace Desafio.Views
 {
@@ -24,7 +23,7 @@ namespace Desafio.Views
             Write("Digite seu nome:");
             string name = ReadString();
             
-            Write("Digite seu CPF");
+            Write("Digite seu CPF: (somente números)");
             string cpf = ReadCpf();
 
             Client.Name = name;

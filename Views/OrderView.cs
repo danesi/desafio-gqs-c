@@ -2,7 +2,6 @@
 using Desafio.Entities;
 using Desafio.Enums;
 using Desafio.Interfaces;
-using Desafio.View;
 
 namespace Desafio.Views
 {
@@ -54,7 +53,7 @@ namespace Desafio.Views
         public ColorEnum GetColor()
         {
             Clear();
-            Write("Escolha a cor a cor:");
+            Write("Escolha a cor:");
             Write("1 - Preto e branco => R$ 0.05 / cópia");
             Write("2 - Colorido => R$ 0.10 / cópia");
             int color = Read1Or2();
@@ -111,8 +110,7 @@ namespace Desafio.Views
             }
             catch (Exception e)
             {
-                Write("Intervalo inválido, tente novamente (precione enter para continuar)");
-                ReadString();
+                Write("Intervalo inválido, tente novamente:");
                 return GetPrintRange();
             }
         }
