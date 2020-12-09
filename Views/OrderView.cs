@@ -97,11 +97,21 @@ namespace Desafio.Views
         /// <summary>
         /// Método que solicia o intervalo de impressão para o cliente, separdo por "-"
         /// </summary>
-        /// <returns>Retorna um array com o intervalo da impressão</returns>
+        /// <returns>Retorna um array com o intervalo da impressão depois de feita a validação</returns>
         public int[] GetPrintRange()
         {
             Clear();
             Write("Digite o intervalo de impressão (separado por - )");
+            return ValidatePrintRange();
+        }
+        
+        
+        /// <summary>
+        /// Método que valida o intervalo de impressão
+        /// </summary>
+        /// <returns>Retorna um array com o intervalo da impressão</returns>
+        public int[] ValidatePrintRange()
+        {
             int[] range;
             try
             {
@@ -111,7 +121,7 @@ namespace Desafio.Views
             catch (Exception e)
             {
                 Write("Intervalo inválido, tente novamente:");
-                return GetPrintRange();
+                return ValidatePrintRange();
             }
         }
 

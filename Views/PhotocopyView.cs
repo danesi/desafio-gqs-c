@@ -37,7 +37,7 @@ namespace Desafio.Views
             Write($"        Nome: {Client.Name}");
             Write($"        CPF: {Client.GetCpf()}");
             Write("Pedido:");
-            Write($"        Cor: {photocopy.Color}");
+            Write($"        Cor: {photocopy.GetColor()}");
             Write($"        Encadernado: {photocopy.GetBind()}");
             Write($"        Número de cópias: {photocopy.NumberCopies}");
             Write($"        Número de páginas copiadas: {photocopy.NumberPagesCopies}");

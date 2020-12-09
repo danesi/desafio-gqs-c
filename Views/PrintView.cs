@@ -40,7 +40,7 @@ namespace Desafio.Views
             Write($"        Nome: {Client.Name}");
             Write($"        CPF: {Client.GetCpf()}");
             Write("Pedido:");
-            Write($"        Cor: {print.Color}");
+            Write($"        Cor: {print.GetColor()}");
             Write($"        Encadernado: {print.GetBind()}");
             Write($"        Número de cópias: {print.NumberCopies}");
             Write($"        Número de páginas copiadas: {print.NumberPagesCopies}");

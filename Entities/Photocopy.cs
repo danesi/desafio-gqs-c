@@ -51,5 +51,14 @@ namespace Desafio.Entities
         {
             return Bind ? "Sim" : "Não";
         }
+        
+        /// <summary>
+        /// Método que verifica qual cor foi escolhida pelo usuário
+        /// </summary>
+        /// <returns>Retorna a cor em string</returns>
+        public string GetColor()
+        {
+            return Color == ColorEnum.Colorido ? "Colorido" : "Preto e branco";
+        }
     }
 }

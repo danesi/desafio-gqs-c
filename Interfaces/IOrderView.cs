@@ -46,6 +46,12 @@ namespace Desafio.Interfaces
         public int[] GetPrintRange();
 
         /// <summary>
+        /// Método que valida o intervalo de impressão
+        /// </summary>
+        /// <returns>Retorna um array com o intervalo da impressão</returns>
+        public int[] ValidatePrintRange();
+
+        /// <summary>
         /// Método que solocita ao cliente o nome do arquivo
         /// </summary>
         /// <returns>Retorna o nome do arquivo</returns>
