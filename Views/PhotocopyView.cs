@@ -32,7 +32,7 @@ namespace Desafio.Views
         public void Checkout(Photocopy photocopy)
         {
             Clear();
-            Write("--------Resumo do pedido--------");
+            Write("--------Resumo do pedido de fotocópia--------");
             Write("Cliente:");
             Write($"        Nome: {Client.Name}");
             Write($"        CPF: {Client.GetCpf()}");

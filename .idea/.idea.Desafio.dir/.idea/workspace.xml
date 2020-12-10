@@ -13,13 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ee7087c-2223-41d9-8ee1-60d31ca05009" name="Default Changelist" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Desafio.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Desafio.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entities/Photocopy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Photocopy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfaces/IOrderView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/IOrderView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/OrderView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/OrderView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/PhotocopyView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/PhotocopyView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/PrintView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Views/PrintView.cs" afterDir="false" />
+    <list default="true" id="1ee7087c-2223-41d9-8ee1-60d31ca05009" name="Default Changelist" comment="Initial Commit">
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Desafio.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Desafio.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Desafio.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Desafio.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Desafio.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/Desafio.dll" afterDir="false" />
@@ -110,7 +104,7 @@
       <workItem from="1607466011902" duration="462000" />
       <workItem from="1607466524058" duration="2615000" />
       <workItem from="1607520851539" duration="524000" />
-      <workItem from="1607548930751" duration="493000" />
+      <workItem from="1607548930751" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1607285277308</created>
@@ -126,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607520976270</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <created>1607549443489</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607549443489</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +150,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="161" key="#Plugins" timestamp="1607379211332">
@@ -160,34 +162,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1607466060974" />
-    <state width="1877" height="604" key="GridCell.Tab.0.bottom" timestamp="1607549361865">
+    <state width="1877" height="604" key="GridCell.Tab.0.bottom" timestamp="1607549554978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="570" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.728@-1366.0.1366.728" timestamp="1607466743438" />
-    <state width="1877" height="604" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1607549361865" />
-    <state width="1877" height="604" key="GridCell.Tab.0.center" timestamp="1607549361865">
+    <state width="1877" height="604" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1607549554978" />
+    <state width="1877" height="604" key="GridCell.Tab.0.center" timestamp="1607549554978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="570" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.728@-1366.0.1366.728" timestamp="1607466743437" />
-    <state width="1877" height="604" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1607549361865" />
-    <state width="1877" height="604" key="GridCell.Tab.0.left" timestamp="1607549361865">
+    <state width="1877" height="604" key="GridCell.Tab.0.center/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1607549554978" />
+    <state width="1877" height="604" key="GridCell.Tab.0.left" timestamp="1607549554977">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="570" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.728@-1366.0.1366.728" timestamp="1607466743437" />
-    <state width="1877" height="604" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1607549361865" />
-    <state width="1877" height="604" key="GridCell.Tab.0.right" timestamp="1607549361865">
+    <state width="1877" height="604" key="GridCell.Tab.0.left/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1607549554977" />
+    <state width="1877" height="604" key="GridCell.Tab.0.right" timestamp="1607549554978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="570" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.728@-1366.0.1366.728" timestamp="1607466743437" />
-    <state width="1877" height="604" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1607549361865" />
+    <state width="1877" height="604" key="GridCell.Tab.0.right/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1607549554978" />
     <state x="708" y="191" key="RiderGenerateDialog" timestamp="1606581338004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="708" y="191" key="RiderGenerateDialog/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1606581338004" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607520984279">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607549446577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1607520984279" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1366.0.1366.728@0.0.1920.1040" timestamp="1607549446577" />
     <state x="638" y="119" width="644" height="801" key="find.popup" timestamp="1607466547183">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

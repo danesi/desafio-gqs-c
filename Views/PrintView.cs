@@ -35,7 +35,7 @@ namespace Desafio.Views
         public void Checkout(Print print)
         {
             Clear();
-            Write("--------Resumo do pedido--------");
+            Write("--------Resumo do pedido de impressão--------");
             Write("Cliente:");
             Write($"        Nome: {Client.Name}");
             Write($"        CPF: {Client.GetCpf()}");
