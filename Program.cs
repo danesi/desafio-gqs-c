@@ -1,4 +1,5 @@
 ﻿using System;
+using Desafio.Interfaces;
 using Desafio.Views;
 
 namespace Desafio
@@ -10,7 +11,7 @@ namespace Desafio
             Console.WriteLine("Bem vindo a nossa gráfica...");
             Console.WriteLine("Precione qualquer tecla para realizar seu pedido");
             Console.ReadLine();
-            OrderView orderView = new OrderView();
+            IOrderView orderView = new OrderView();
             orderView.Start();
         }
     }
