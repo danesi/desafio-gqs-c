@@ -51,7 +51,7 @@ namespace Desafio.Views
         public string ReadCpf()
         {
             string cpf = Console.ReadLine();
-            if (cpf == null || cpf.Length == 11 && cpf.All(char.IsDigit)) return cpf;
+            if (cpf != null && cpf.Length == 11 && cpf.All(char.IsDigit)) return cpf;
             Write("Valor inválido, tente novamente:");
             return ReadCpf();
 
