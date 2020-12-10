@@ -115,7 +115,7 @@ namespace Desafio.Views
             int[] range;
             try
             {
-                range = Array.ConvertAll(ReadString().Split("-"), r => int.Parse(r));
+                range = Array.ConvertAll(ReadString().Split("-"), int.Parse);
                 return range;
             }
             catch (Exception e)

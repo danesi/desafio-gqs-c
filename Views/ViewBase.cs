@@ -39,13 +39,9 @@ namespace Desafio.Views
         public string ReadString()
         {
             string word = Console.ReadLine();
-            if (word.Equals(""))
-            {
-                Write("Valor inválido, tente novamente:");
-                return ReadString();
-            }
-            else
-                return word;
+            if (!word.Equals("")) return word;
+            Write("Valor inválido, tente novamente:");
+            return ReadString();
         }
         
         /// <summary>
@@ -55,13 +51,9 @@ namespace Desafio.Views
         public string ReadCpf()
         {
             string cpf = Console.ReadLine();
-            if (cpf != null && (cpf.Length != 11 || !cpf.All(char.IsDigit)))
-            {
-                Write("Valor inválido, tente novamente:");
-                return ReadCpf();
-            }
-            else
-                return cpf;
+            if (cpf == null || cpf.Length == 11 && cpf.All(char.IsDigit)) return cpf;
+            Write("Valor inválido, tente novamente:");
+            return ReadCpf();
 
         }
         
@@ -75,10 +67,8 @@ namespace Desafio.Views
             try
             {
                 value = int.Parse(ReadString());
-                if (value > 0)
-                    return value;
-                else
-                    throw new Exception();
+                if (value > 0) return value;
+                throw new Exception();
 
             }
             catch (Exception e)
@@ -95,13 +85,9 @@ namespace Desafio.Views
         public int Read1Or2()
         {
             int value = ReadInt();
-            if (value == 1 || value == 2)
-                return value;
-            else
-            {
-                Write("Valor inválido, tente novamente:");
-                return Read1Or2();
-            }
+            if (value == 1 || value == 2) return value;
+            Write("Valor inválido, tente novamente:");
+            return Read1Or2();
         }
     }
 }

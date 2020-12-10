@@ -27,9 +27,7 @@ namespace Desafio.Entities
         public void CalculateValue()
         {
             int numberCopies = NumberCopies * NumberPagesCopies;
-            if (Bind)
-                ToBind();
-            
+            if (Bind) ToBind();
             Price += Color == ColorEnum.PretoBranco ? numberCopies * 0.05 : numberCopies * 0.10;
         }
 
